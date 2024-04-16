@@ -17,4 +17,5 @@ inputForm.addEventListener("submit", (event) => {
         <td class="border border-gray-400 px-4 py-2">${tableOf * i}</td>
     </tr>`;
   }
+  input.value = ""
 });
